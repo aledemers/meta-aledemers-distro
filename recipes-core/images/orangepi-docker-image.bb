@@ -1,6 +1,6 @@
 SUMMARY = "Orange Pi Image with Docker and K3S support, No Graphics"
 
-require orangepi-image.inc
+require base-dev-image.inc
 
 IMAGE_INSTALL += " \
     docker-ce \
