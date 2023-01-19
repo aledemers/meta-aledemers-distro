@@ -21,18 +21,17 @@ KERNEL_EXTRA = " \
 "
 
 DEV_SDK = " \
+    cmake \
     diffutils \
-    elfutils elfutils-binutils \
+    elfutils \
+    elfutils-binutils \
     file \
-    gettext \
     git \
     ldd \
-    libstdc++ \
-    libstdc++-dev \
-    make \
     python3-modules \
     python3-pip \
     strace \
+    packagegroup-core-buildessential \
 "
 
 EXTRA_TOOLS = " \
